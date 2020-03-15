@@ -20,7 +20,7 @@
 require 'vendor/autoload.php';
 
 $client = new Zelenin\Telegram\Bot\Api('897899425:AAHBXJ0jE6nxjE8DpAme1jldge0yOP7jHZA'); // Set your access token
-$url = ''; // URL RSS feed
+$url = 'https://news.google.com/search?q=sakarya'; // URL RSS feed
 $update = json_decode(file_get_contents('php://input'));
 
 //your app
